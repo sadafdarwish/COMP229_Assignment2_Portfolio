@@ -1,0 +1,17 @@
+/* Custom Styles for Assignment 2
+   Student: Sadaf Darwish | StudentID: 301234567 | Date: 2025-09-17 */
+
+/* Keeps content narrower and centered */
+.container-narrow {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Footer spacing and color */
+footer {
+  padding: 1rem 0;
+  color: #6c757d;
+  /* gray text */
+  text-align: center;
+  border-top: 1px solid #dee2e6;
+}

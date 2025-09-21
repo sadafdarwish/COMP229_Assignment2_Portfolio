@@ -1,0 +1,20 @@
+<%- include('partials/header') %>
+<main class='container py-5'>
+<%- include('partials/header', { title:'Projects', active:'projects' }) %>
+    <h1>Projects</h1>
+
+<div class="container py-4">
+  <div class="row g-3">
+    <div class="col-md-4"><img src="/images/project1.svg" class="img-fluid rounded" alt="Project 1 image"></div>
+    <div class="col-md-4"><img src="/images/project2.svg" class="img-fluid rounded" alt="Project 2 image"></div>
+    <div class="col-md-4"><img src="/images/project3.svg" class="img-fluid rounded" alt="Project 3 image"></div>
+  </div>
+</div>
+
+    <ul class="list-group">
+        <li class="list-group-item"><strong>Project One</strong> — "Built a multi-page restaurant site (index, menu, details, contact, location) with banner, navbar, background styling,
+        and contact form. Deployed to studentweb.</li>
+        <li class="list-group-item"><strong>Project Two</strong> — "Created a C# console application for a library system, allowing users to borrow and return books. Implemented with a simple text-based menu and data persistence using JSON files."</li>
+        <li class="list-group-item"><strong>Project Three</strong> — "Designed a UML diagram and ER model for a fictional e-commerce website, focusing on user authentication and product management."</li>
+    </ul></main>
+<%- include('partials/footer') %>
